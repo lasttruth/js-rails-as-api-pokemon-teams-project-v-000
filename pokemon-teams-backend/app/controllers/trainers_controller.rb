@@ -1,5 +1,5 @@
 class TrainersController < ApplicationController
   def index
-    trainers = Trainer.all? { |e|  }
+    trainers = Trainer.all
   end
 end
